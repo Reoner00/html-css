@@ -85,16 +85,18 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 25%;
+  width: 30%;
   margin: auto;
   gap: 2rem;
   padding: 2rem;
   text-align: left;
 }
 .main-text {
+  width: 100%;
   text-align: center;
   color: whitesmoke;
   font-weight: 500;
+  overflow: visible;
 }
 
 button {
