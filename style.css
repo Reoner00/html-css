@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 .wrapper {
+  width: 100%;
   font-family: josef;
   padding: 1em;
 }
@@ -16,7 +17,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1em;
+  padding-bottom: 1em;
 }
 
 .img-logo {
@@ -71,6 +72,86 @@ header {
 .nav-head a:hover::before {
   transform: scaleX(1);
 }
+
+.main-about {
+  background-color: orchid;
+  width: 100%;
+}
+
+.logo-main {
+  display: block;
+}
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 25%;
+  margin: auto;
+  gap: 2rem;
+  padding: 2rem;
+  text-align: left;
+}
+.main-text {
+  text-align: center;
+  color: whitesmoke;
+  font-weight: 500;
+}
+
+button {
+  padding: 17px 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 0;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  transition: all 0.5s ease;
+}
+
+button:hover {
+  letter-spacing: 3px;
+  background-color: hsl(261, 79%, 50%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+}
+
+button:active {
+  letter-spacing: 3px;
+  background-color: hsl(261, 31%, 60%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(59, 3, 163) 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+}
+
+.main-author {
+  width: 300px;
+  text-align: center;
+  color: whitesmoke;
+  font-weight: 900;
+}
+
+.main-transition {
+  text-align: center;
+  padding: 2rem;
+}
+.underText-line {
+  display: inline-block;
+  width: 100px;
+  height: 5px;
+  background-color: black;
+}
+
+.images-contaner {
+  display: flex;
+}
+.img-main {
+  width: 50%;
+  min-height: 5%;
+}
+
 @font-face {
   font-family: "josef";
   src: url("./font/JosefinSans-VariableFont_wght.ttf") format("truetype");
