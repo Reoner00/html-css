@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  font-family: josef;
+  padding: 1em;
+}
+
+header {
+  width: 100%;
+  background-color: bisque;
+}
+.header-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+}
+
+.img-logo {
+  display: block;
+  width: 4rem;
+}
+
+.nav-head {
+  text-decoration: none;
+  gap: 20px;
+  display: flex;
+}
+.nav-head a {
+  text-decoration: none;
+  li {
+    list-style: none;
+    color: rgb(8, 9, 9);
+    font-weight: 900;
+  }
+}
+
+@font-face {
+  font-family: "josef";
+  src: url("./font/JosefinSans-VariableFont_wght.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
